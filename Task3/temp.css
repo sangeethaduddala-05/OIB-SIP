@@ -1,0 +1,36 @@
+body{
+    font-family: Georgia, serif;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    width: 400px;
+    text-align: center;
+}
+.converter{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    padding: 10px;
+    border: 2px solid silver;
+    border-radius: 10px;
+}
+button{
+    padding: 10px;
+    background-color: orange;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
